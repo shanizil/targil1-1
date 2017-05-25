@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hw1</title>
+        <link rel="stylesheet" href="includes/style.css">
+    </head>
+    <body>
+            
+                <div id="wrapper">
+                    <h1>welcome to hot-vod</h1> 
+                    <h3>Categories by age</h3>
+                    <section>
+                    <p>Get all data (GET- Without parameters):</p>
+                    <a target="_blank" href="https://targil1-1.herokuapp.com/getAllData">get without parameters</a><br><br>
+                    <p>Get specific data by id (POST 'id' param required):</p>
+                    <a target="_blank" href="https://targil1-1.herokuapp.com/getAgeJson">post with 1 parameters</a><br><br>
+                    <p>Get specific data by id and movie (POST 'id' and 'movie' params required):</p>
+                    <a target="_blank" href="https://targil1-1.herokuapp.com/getAgesTypeData">post with 2 parameters</a>
+                    </section>
+
+                     <h3>Data Model Example:</h3>
+                    `<p>{<br>
+                     <b>"type"</b>: "adult",<br>
+                     <b>"id"</b>: 3,<br>
+                     <b>"ageRange"</b>: "18 and above", <br>
+                     <b>"movies"</b>: [<br>
+                      {<br>
+                     <b>"name"</b>: "grease",<br>
+                     <b>"profile"</b>: 128<br>
+                     <b>"length"</b>:"90 minutes"<br>
+                      },<br>
+                      {<br>
+                     <b>"name"</b>: "prettyWoman",<br>
+                     <b>"profile"</b>: 129<br>
+                     <b>"length"</b>:"120 minutes"<br>
+                      },<br>
+                      {<br>
+                     <b>"name"</b>: "titanic",<br>
+                     <b>"profile"</b>: 130<br>
+                     <b>"length"</b>:"150 minutes"<br>
+                      }<br>
+             ]<br>
+        }
+    </p>
+             <h3>error:</h3>
+             <b>not found</b>
+                </div>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color:#red;
+}
+
+h1,h3{
+  font-weight: bold;
+  text-align: center;
+}
+p{
+  font-family:"arial";
+  font-size:14px;
+}
+#wrapper{
+  width: 80%;
+  margin: auto;
+  background-color: #EEE8AA;
+
+}
